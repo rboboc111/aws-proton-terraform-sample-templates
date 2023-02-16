@@ -7,7 +7,7 @@ schema:
       type: object
       description: "Input properties for my environment"
       properties:
-        vpc_cidr:
+        VPC:
           type: string
           description: "This CIDR range for your VPC"
           default: 10.0.0.0/16
